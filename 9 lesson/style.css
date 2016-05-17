@@ -1,0 +1,149 @@
+body {
+    font-size: 16px;
+    color: #333;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 0;
+
+    background: #333;
+
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+
+    list-style-type: none;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 9px 8px;
+    color: #fff;
+
+    transition: linear 0.5s all;
+}
+
+nav li a:hover {
+    background: #ccc;
+    color: #333;
+
+    transform: rotate(360deg);
+}
+
+.wrapperForBlocks {
+    margin-top: 50px;
+}
+
+.block {
+    text-align: center;
+    width: 200px;
+
+    padding: 0 10px 20px;
+
+    float: left;
+
+    border-radius: 3px;
+
+    background: #333;
+
+    color: #fff;
+
+    margin: 10px;
+
+    box-shadow: 0 5px 10px lightgray;
+
+}
+
+.block h3 {
+    margin: 0 -10px -10px;
+    padding: 5px;
+
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 2px #ccc;
+
+    color: #000;
+
+    border: 1px solid #333;
+    background: linear-gradient(to bottom right,#E0C82E, #F1E9D7 );
+}
+
+.block a {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 500px) {
+    .block {display: inline-block; vertical-align: middle;}
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 760px) {
+    body {width: 760px;}
+    .block {float:left; width: 375px;  margin: 10px; vertical-align: middle;}
+}
+
+@media screen and (min-device-width: 760px) and (max-device-width: 1024px) {
+    body {width: 1024px;}
+    .block {float:left; width: 300px;  margin: 10px; vertical-align: middle;}
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    body {width: 1366px;}
+    .block {float:left; width: 325px;  margin: 10px; vertical-align: middle;}
+}
+
+.block a {
+    transition: linear 0.5s all;
+}
+
+.block a:hover {
+    color: red;
+    background-color: white;
+}
+
+.block {
+    transition: all;
+}
+
+.block:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.scrollup {
+    width:100px;
+background:#333;
+text-align:center;
+padding:10px;
+position:fixed;
+left: 1200px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+cursor:pointer;
+font-size:12px;
+border-radius: 5px;
+}
+
+.scrollup a {
+    color:#fff;
+}
+
+.scrollup a:hover {
+    color: #ffdc8b;
+}
