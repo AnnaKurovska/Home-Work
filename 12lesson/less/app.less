@@ -1,0 +1,105 @@
+@background-default: #e0e0e0;
+@background2: #3b83c0;
+@background3: #404245;
+
+@color-default: #333;
+@color2-3: #fff;
+
+@hover-backdround-default: #e8e8e8;
+@hover-backdround2: #458ac6;
+@hover-backdround3: #1b1c1d;
+
+@hover-color-default: #333;
+@hover-color2-3: #fff;
+
+@font-size-xs: 10px;
+@font-size-default: 14px;
+@font-size-xl: 18px;
+
+@line-height-xs-default-xl: 20px;
+
+@padding-xs: 2px 4px;
+@padding-default: 6px 12px;
+@padding-xl: 10px 16px;
+
+body {
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  div {
+    color: black;
+    margin: 0 auto;
+    width: 900px;
+  }
+  .btn-default {
+    background: @background-default;
+    color: @color-default;
+    border-radius: 4px;
+    padding: @padding-default;
+
+  }
+  .btn-info {
+    background: @background2;
+    color: @color2-3;
+    border-radius: 4px;
+    padding: @padding-default;
+  }
+  .btn-secondary {
+    background: @background3;
+    color: @color2-3;
+    border-radius: 4px;
+    padding: @padding-default;
+  }
+
+  a.btn-default:hover {
+    background: @hover-backdround-default;
+    color: @hover-color-default;
+}
+
+  a.btn-info:hover {
+    background: @hover-backdround2;
+    color: @hover-color2-3;
+  }
+
+  a.btn-secondary:hover {
+    background: @hover-backdround3;
+    color: @hover-color2-3;
+  }
+
+  a.btn-default:active {
+    background: darkolivegreen;
+  }
+
+  a.btn-info:active {
+    background: darkolivegreen;
+  }
+
+  a.btn-secondary:active {
+    background: darkolivegreen;
+  }
+
+
+  .btn-xs {
+    font-size: @font-size-xs;
+    line-height: @line-height-xs-default-xl;
+    padding: @padding-xs;
+  }
+
+  .btn-md {
+    font-size: @font-size-default;
+    line-height: @line-height-xs-default-xl;
+    padding: @padding-default;
+  }
+
+  .btn-xl {
+    font-size: @font-size-xl;
+    line-height: @line-height-xs-default-xl;
+    padding: @padding-xl;
+  }
+
+  .active {
+    opacity: 0.6;
+  }
+}
+
+
