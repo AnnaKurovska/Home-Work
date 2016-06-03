@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+  <title>task5</title>
+</head>
+<body>
+<div align="center">
+    <form name="form1" method="post">
+        <fieldset>
+        <legend> </legend>
+            <h3> Please fill the information below: </h3>
+
+<p>
+            <label class="uname"> <b>First name<sup>*</sup></b>
+            <input type="text" name="first name" value="" required />
+            </label>
+</p>
+<p>
+    <label class="uname"><b> Last name<sup>*</sup> </b>
+        <input type="text" name="last name" value="" required />
+        </label>
+            </p>
+
+<div class="container">
+    <form class="form-inline" role="form">
+            <div class="row">
+                <div class="col-xs-6">
+                            <label for="date"> <b> Date of birth<sup>*</sup> </b> </label>
+                            <input type="date"   class="form-control"  name="date of birth" value="write your date of birth" required />
+                 </div>
+
+                 <div class="col-xs-6">
+                         <span class="gender"<b> Choose gender<sup>*</sup> </b></span>
+                        <label class="radio-inline"><input type="radio" name="s" value="m" checked="checked" required /> Male </label>
+                        <label class="radio-inline"><input type="radio" name="s" value="f" checked="checked" required /> Female </label>
+                </div>
+            </div>
+        </form>
+</div>
+
+<p>
+            <label class="pass"> <b>Password<sup>*</sup> </b>
+                <input type="password" name="pass" required />
+                </label>
+            </p>
+
+            <p>
+            <label class="repeatpass"> <b>Repeat password<sup>*</sup></b>
+            <input type="password" name="reppass" required />
+            </label>
+            </p>
+
+            <p>
+            <label class="phone"> <b>Enter telephone<sup>*</sup></b>
+            <input type="number" name="number" required />
+                </label>
+            </p>
+
+            <p>
+            <label class="website"> <b> Your website url </b>
+                <input type="url" name="url" />
+                </label>
+            </p>
+
+            <p><b> Please enter your card informanion </b>
+
+                <div class="row">
+                    <div class="col-xs-9">
+                        <span class="cardinfo"><b>Card number</b></span>
+                                <div class="row">
+                                    <div class="col-xs-3"><input type="text" class="form-control" /></div>
+                                    <div class="col-xs-3"><input type="text" class="form-control" /></div>
+                                    <div class="col-xs-3"><input type="text" class="form-control" /></div>
+                                    <div class="col-xs-3"><input type="text" class="form-control" /></div>
+                                </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <span class="cardinfo"><b>CV</b></span>
+                            <input type="text" class="form-control" />
+                        </div>
+                    </div>
+            </div>
+
+
+            <p>
+                <label class="choose"> <b> Choose how many brothers or sister do you have </b>
+            <input type="range" min="0" max="10" step="1" />
+                    </label>
+</p>
+
+            <p>
+                <label class="color"> <b> Choose your favourite color: </b>
+                <input type="color" name="favcolor">
+                    </label>
+                </p>
+            <p>
+            <input type="submit" value="Submit">
+            </p>
+
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

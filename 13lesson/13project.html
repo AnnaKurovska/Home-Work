@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Less example</title>
+    <link rel="stylesheet/less" href="css/plogin.less">
+    <script>
+        less = {
+            env: "development",
+            dumpLineNumbers: "comments"
+        };
+    </script>
+    <script src="less.min.js"></script>
+</head>
+<body>
+<ul class="nav">
+    <li class="op1"><a href="#">Project name</a></li>
+    <li class="op2"><a href="#">Home</a></li>
+    <li class="op3"><a href="#">About</a></li>
+    <li class="op4"><a href="#">Contact</a></li>
+</ul>
+<div class="bgsize">
+    <div class="headertext">Hello, world!</div>
+    <div class="contenttext">
+        When people make a template module like this one, they almost always start by inventing a special syntax
+        for substitutions. For example, they build it so that a string like %%VAR%% is replaced with the value
+        of $VAR. Then they realize the need extra formatting, so they put in some special syntax for formatting.
+        Then they need a loop, so they invent a loop syntax. Pretty soon they have a new little template language.
+    </div>
+    <br>
+    <button class="btn"> Learn more >> </button>
+    <div class="tablepart">
+        <table class="tablepart">
+        <tr class="colsize">
+            <td >
+                <h1>Heading</h1>
+                <p>
+                    This approach has two problems: First, their little language is crippled. If you need to do
+                    something the author hasn't thought of, you lose. Second: Who wants to learn another language?
+                    You already know Perl, so why not use it?
+                </p>
+                <br>
+                <button class="btn-details"> View details >> </button>
+            </td>
+            <td>
+            <h1>Heading</h1>
+            <p>
+                This approach has two problems: First, their little language is crippled. If you need to do
+                something the author hasn't thought of, you lose. Second: Who wants to learn another language?
+                You already know Perl, so why not use it?
+            </p>
+                <br>
+                <button class="btn-details"> View details >> </button>
+            </td>
+            <td>
+                <h1>Heading</h1>
+                <p>
+                    This approach has two problems: First, their little language is crippled. If you need to do
+                    something the author hasn't thought of, you lose. Second: Who wants to learn another language?
+                    You already know Perl, so why not use it?
+                </p>
+                <br>
+                <button class="btn-details"> View details >> </button>
+            </td>
+        </tr>
+        </table>
+    </div>
+    <div class="line">
+        <hr>
+        <p>AK 2016</p>
+    </div>
+
+</div>
+</body>
+</html>
