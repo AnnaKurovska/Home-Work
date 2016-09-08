@@ -1,0 +1,22 @@
+User-agent: * 
+Disallow: /authors.html
+
+User-agent: Yandex 
+Disallow: /authors.html  
+
+User-agent: Googlebot-Image 
+Disallow: /img/team1.jpg
+Disallow: /img/team2.jpg
+Disallow: /img/team3.jpg
+Disallow: /img/team4.jpg  
+
+User-agent: YandexImages 
+Disallow: /img/team1.jpg
+Disallow: /img/team2.jpg
+Disallow: /img/team3.jpg
+Disallow: /img/team4.jpg 
+
+User-agent: Googlebot
+
+Disallow: /*.gif$
+Disallow: /*.png$
